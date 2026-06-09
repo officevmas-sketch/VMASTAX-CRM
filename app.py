@@ -650,7 +650,6 @@ st.markdown("""
     <div class='powerbi-header'>
         <div>
             <div class='powerbi-title'>VMAS CRM Analytics Dashboard</div>
-        </div>
   </div>
   <div class='powerbi-badge'>Amount View: {amount_unit}</div>
 </div>
