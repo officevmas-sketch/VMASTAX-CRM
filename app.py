@@ -650,12 +650,15 @@ def apply_filters(df):
 filtered = apply_filters(df_all)
 
 st.markdown(f"""
-<div class='powerbi-header'>
-  <div>
-    <div class='powerbi-title'>VMAS CRM Analytics Dashboard</div>
-    <div class='powerbi-subtitle'>Power BI style view for clients, filings, collections, follow-ups and lead pipeline</div>
-  </div>
-  <div class='powerbi-badge'>Amount View: {amount_unit}</div>
+<div style='margin-top:30px;'>
+    <div class='powerbi-header'>
+        <div>
+            <div class='powerbi-title'>VMAS CRM Analytics Dashboard</div>
+        </div>
+        <div class='powerbi-badge'>
+            Amount View: {amount_unit}
+        </div>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 active_filters = []
