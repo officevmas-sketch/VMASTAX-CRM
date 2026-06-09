@@ -208,7 +208,7 @@ filtered = apply_filters(df_all)
 
 st.markdown("""
 <div class='hero-card'>
-  <div class='hero-title'>VMAS Bright CRM Command Center</div>
+  <div class='hero-title'>VMAS CRM Command Center</div>
   <div class='hero-sub'>Leads • ITR/GST Worklist • Follow-ups • Collections • Client Relationship Tracking</div>
 </div>
 """, unsafe_allow_html=True)
