@@ -648,6 +648,7 @@ filtered = apply_filters(df_all)
 st.markdown(f"""
 <div class='powerbi-header'>
   <div>
+   <div>
     <div class='powerbi-title'>VMAS CRM Analytics Dashboard</div>
   </div>
   <div class='powerbi-badge'>Amount View: {amount_unit}</div>
