@@ -626,7 +626,7 @@ if page == "Executive Dashboard" and not filtered.empty:
             fig = px.bar(status_counts, x="count", y="status", orientation="h", text="count")
             fig.update_layout(template="plotly_white", height=360, margin=dict(t=10,l=5,r=5,b=5), xaxis_title="Clients", yaxis_title="")
             fig.update_traces(
-                marker_color="#C9A227",
+                marker_color="#FFF7ED",
                 marker_line_color="#B8860B",
                 marker_line_width=1.5,
                 opacity=0.92,
